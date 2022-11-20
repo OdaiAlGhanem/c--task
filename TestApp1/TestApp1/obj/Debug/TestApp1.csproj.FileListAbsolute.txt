@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\TestApp1\TestApp1\bin\Debug\TestApp1.exe.config
+C:\Users\dell\source\repos\TestApp1\TestApp1\bin\Debug\TestApp1.exe
+C:\Users\dell\source\repos\TestApp1\TestApp1\bin\Debug\TestApp1.pdb
+C:\Users\dell\source\repos\TestApp1\TestApp1\obj\Debug\TestApp1.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\TestApp1\TestApp1\obj\Debug\TestApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\source\repos\TestApp1\TestApp1\obj\Debug\TestApp1.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\TestApp1\TestApp1\obj\Debug\TestApp1.exe
+C:\Users\dell\source\repos\TestApp1\TestApp1\obj\Debug\TestApp1.pdb
