@@ -7,11 +7,17 @@ using TestApp1;
 
 namespace TestApp1
 {
-    internal class Program
+    internal class tasks
     {
         static void Main(string[] args)
+
+
         {
             //task 1
+            Console.WriteLine("Enter your  Name");
+            String yourname = Console.ReadLine();
+
+            //task 2
             double number = 2.002;
             string str = "odai";
             char character = 'a';
@@ -25,7 +31,7 @@ namespace TestApp1
             Console.WriteLine("number is :", num);
             Console.WriteLine("const is :" + a);
 
-            //task 2
+            //task 3
 
             string[] cars = { "bmw", "honda", "volvo", "kia" };
             for(int i=0; i < cars.Length; i++) 
@@ -33,7 +39,7 @@ namespace TestApp1
                 Console.WriteLine(cars[i]);
             }
 
-            //task 3
+            //task 4
 
             Console.WriteLine("Enter your First Name");
             String FirstName = Console.ReadLine();
@@ -48,27 +54,18 @@ namespace TestApp1
             Console.WriteLine("Hello {0}, {1} ,{2}",FirstName, LastName,  birthday );
 
 
-            //task 4
-            string[] numbers = new string[10];
-
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                Console.WriteLine("Enter a number ");
-                numbers[i] = Console.ReadLine();
-            }
-
-            for (int i = 0; i < numbers.Length; i++)
-            {
-                Console.Write(numbers[i] + " ");
-
-            }
-
-            Console.ReadLine();
-
-
             //task 5
+            int[] numbers = { 1,1,2,3,4,5,6,7,8,9 };
 
-            int[] numm = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                Console.WriteLine(numbers[i]);
+               
+            }
+
+            //task 6
+
+            int[] numm = { 2, 5, 8 };
             int sum = 0;
             for (int i = 0; i < numm.Length; i++)
             {
@@ -76,7 +73,7 @@ namespace TestApp1
 
             }
 
-            Console.WriteLine("the numation is : " + sum);
+            Console.WriteLine("the numbers is : " + sum);
 
         }
 
