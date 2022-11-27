@@ -13,16 +13,17 @@
         static void Task1()
         {
             int sum = 0;
-            int entries = 0;
-            Console.WriteLine("Enter 10 numbers each on a line:");
+            int avg = 0;
+            Console.WriteLine("Enter 10 numbers :");
             for (int i = 0; i < 10; i++)
             {
                 int num1 = Convert.ToInt32(Console.ReadLine());
                 sum += num1;
-                entries++;
+                
+                avg++;
             }
             Console.WriteLine($"The summation is : {sum}");
-            Console.WriteLine($"The average is : {sum / entries}");
+            Console.WriteLine($"The average is : {sum / avg}");
         }
 
 
@@ -32,19 +33,19 @@
             Console.WriteLine("Please Enter The Numbers of terms");
             cube(Convert.ToInt32(Console.ReadLine()));
         }
-        static void cube(int nTerm)
+        static void cube(int nterms)
         {
-            for (int i = 1; i <= nTerm; i++)
+            for (int i = 1; i <= nterms; i++)
             {
-                int pow = i * i * i;
-                Console.WriteLine(" Numbers is:" + i + " and cube of The " + i + " is: " + pow);
+                int fun = i * i * i;
+                Console.WriteLine(" Numbers is:" + i + " and cube of The " + i + " is: " + fun);
             }
         }
 
         //task3============================================================================
         static void Task3(int[] years)
         {
-            int[] arr = { };
+            
             for (int i = 0; i < years.Length; i++)
             {
 
@@ -64,7 +65,6 @@
             Console.WriteLine("please Enter Your age in Years");
             double yourageindays = ageindays(Convert.ToInt32(Console.ReadLine()));
             Console.WriteLine(yourageindays);
-
 
         }
         static double ageindays(int age)
@@ -99,10 +99,10 @@
         {
             
             
-                string[] users = { "odai", "ali", "eisa", "ahmad", "al", "ghanem" };
+                string[] usersname = { "odai", "ali", "eisa", "ahmad", "al", "ghanem" };
                 Console.WriteLine("Please Enter your name");
                 string name = Console.ReadLine();
-                Console.WriteLine(logIn(users, name));
+                Console.WriteLine(logIn(usersname, name));
 
         }
 
@@ -129,12 +129,12 @@
         //task7=======================================================
         static void Task7(int num7, int num8)
         {
-            int ting = 1;
+            int numm = 1;
             for (int i = 1; i <= num8; i++)
             {
-                ting *= num7;
+                numm *= num7;
             }
-            Console.WriteLine(ting);
+            Console.WriteLine(numm);
         }
         //task8=======================================================
         static void Task8()
@@ -199,35 +199,32 @@
         }
         static void Main(string[] args)
             {
-
-            //task1
-            // Task1();
-            //task2
-            // task2();
-            //Task3
-            //int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
-            //Task3(years);
-            //task4
-            //task4();
-            //task5
-            //task5();
-            // task6();
-            // task7
-            // Console.WriteLine("Enter a number: ");
-            //int num7 = Convert.ToInt32(Console.ReadLine());
-            // Console.WriteLine("Enter the power: ");
-            // int num8 = Convert.ToInt32(Console.ReadLine());
-            // Task7(num7, num8);
-            //task8
-            //Task8();
-
-
-            //Task9();
-
-            //int num10 = Task10();
-            //Console.WriteLine(num10);
-
+            //task1==============
+            Task1();
+            //task2==============
+            task2();
+            //Task3==============
+            int[] years = { 1763, 1972, 1925, 1916, 1984, 1124, 1950, 2020 };
+            Task3(years);
+            //task4==============
+            task4();
+           //task5===============
+            task5();
+            //task6==============
+            task6();
+            //task7=============
+            Console.WriteLine("Enter a number: ");
+            int num7 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the power: ");
+            int num8 = Convert.ToInt32(Console.ReadLine());
+            Task7(num7, num8);
+            //task8================
+            Task8();
+            //task9==============
+            Task9();
+            //task10==============
+            int num10 = Task10();
+            Console.WriteLine(num10);
         }
     }
-    
-    }
+}

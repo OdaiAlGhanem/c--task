@@ -45,7 +45,7 @@ namespace _22_11
 
             //string[] arr2 = { "Str", "alex", "moh" };
 
-            //string[] arr3 = {"the", "fox", "over", "lazy", "dog"};
+            //string[] arr3 = { "the", "fox", "over", "lazy", "dog" };
 
 
             //task2
@@ -123,51 +123,68 @@ namespace _22_11
 
             //task6
 
-            //for(int i=0; i<= 4; i++)
-            //{
-            //    for (int j = 4-i; j > 0; j--)
-            //    {
+            for (int i = 0; i <= 4; i++)
+            {
+                for (int j = 4 - i; j > 0; j--)
+                {
 
-            //        Console.Write(" ");
-            //    }
-            //    for(int j=0; j <=i; j++)
-            //    { 
-            //        Console.Write("* ");
+                    Console.Write(" ");
+                }
+                for (int j = 0; j <= i; j++)
+                {
+                    Console.Write("* ");
 
-            //    }
-            //    Console.WriteLine();
+                }
+                Console.WriteLine();
 
-            //int row = 4;
-            //for (int i = 0; i <= 4; i++)
-            //{
-            //    for (int j = 0 ; j < row-i; j++)
-            //    {
-            //        Console.Write(" ");
-            //    }
-            //    for (int j = 0; j <= i; j++)
-            //    {
-            //        Console.Write("* ");
-            //    }
-            //    Console.WriteLine();
+                //int row = 4;
+                //for (int i = 0; i <= 4; i++)
+                //{
+                //    for (int j = 0; j < row - i; j++)
+                //    {
+                //        Console.Write(" ");
+                //    }
+                //    for (int j = 0; j <= i; j++)
+                //    {
+                //        Console.Write("* ");
+                //    }
+                //    Console.WriteLine();
 
-            //int f = 1;
-            //for (int i = 0; i < 4; i++)
-            //{
+                //    int f = 1;
+                //    for (int i = 0; i < 4; i++)
+                //    {
 
-            //    for (int j = 4 - i; j > 0; j--)
-            //    { 
-            //        Console.Write(" ");
-            //    }
-            //    for (int j = 0; j <= i ; j++)
-            //    {
-            //        Console.Write(f + " ");
-            //        f++;
-                 
-            //    }
-            //    Console.WriteLine();
-            }
+                //        for (int j = 4 - i; j > 0; j--)
+                //        {
+                //            Console.Write(" ");
+                //        }
+                //        for (int j = 0; j <= i; j++)
+                //        {
+                //            Console.Write(f + " ");
+                //            f++;
 
-        }
+                //         }
+                //    Console.WriteLine();
+                //
+                //    double number1, number2, number3, number4;
 
-    }  
+                //    Console.Write("Enter the First number: ");
+                //    number1 = Convert.ToDouble(Console.ReadLine());
+
+                //    Console.Write("Enter the Second number: ");
+                //    number2 = Convert.ToDouble(Console.ReadLine());
+
+                //    Console.Write("Enter the third number: ");
+                //    number3 = Convert.ToDouble(Console.ReadLine());
+
+                //    Console.Write("Enter the fourth number: ");
+                //    number4 = Convert.ToDouble(Console.ReadLine());
+
+                //    double result = (number1 + number2 + number3 + number4) / 4;
+                //    Console.WriteLine("The average of {0}, {1}, {2}, {3} is: {4} ",
+                // number1, number2, number3, number4, result);
+            }     }
+    }
 }
+
+       
