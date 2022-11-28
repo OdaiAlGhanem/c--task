@@ -1,0 +1,8 @@
+C:\Users\dell\source\repos\c--task\TestApp1\28-11 oop\obj\Debug\28-11 oop.csproj.AssemblyReference.cache
+C:\Users\dell\source\repos\c--task\TestApp1\28-11 oop\obj\Debug\28-11 oop.csproj.SuggestedBindingRedirects.cache
+C:\Users\dell\source\repos\c--task\TestApp1\28-11 oop\obj\Debug\28-11 oop.csproj.CoreCompileInputs.cache
+C:\Users\dell\source\repos\c--task\TestApp1\28-11 oop\bin\Debug\28-11 oop.exe.config
+C:\Users\dell\source\repos\c--task\TestApp1\28-11 oop\bin\Debug\28-11 oop.exe
+C:\Users\dell\source\repos\c--task\TestApp1\28-11 oop\bin\Debug\28-11 oop.pdb
+C:\Users\dell\source\repos\c--task\TestApp1\28-11 oop\obj\Debug\28-11 oop.exe
+C:\Users\dell\source\repos\c--task\TestApp1\28-11 oop\obj\Debug\28-11 oop.pdb
